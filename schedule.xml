@@ -1,0 +1,26 @@
+<schedule>
+    <lesson>
+        <name>Предмет 1</name>
+        <homework>Задание 1</homework>
+    </lesson>
+    <lesson>
+        <name>Предмет 2</name>
+        <homework>Задание 2</homework>
+    </lesson>
+    <lesson>
+        <name>Предмет 3</name>
+        <homework>Задание 3</homework>
+    </lesson>
+    <lesson>
+        <name>Предмет 4</name>
+        <homework>Задание 4</homework>
+    </lesson>
+    <lesson>
+        <name>Предмет 5</name>
+        <homework>Задание 5</homework>
+    </lesson>
+    <lesson>
+        <name>Предмет 6</name>
+        <homework>Задание 6</homework>
+    </lesson>
+</schedule>
