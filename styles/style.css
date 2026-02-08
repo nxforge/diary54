@@ -1,0 +1,130 @@
+:root {
+    --bg-color: #f6f6f6;
+    --text-color: #000;
+
+    --card-level1: #e0e0e0;
+    --card-level2: #d0d0d0;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #101010;
+        --text-color: #fff;
+
+        --card-level1: #1f1f1f;
+        --card-level2: #2f2f2f;
+    }
+}
+
+
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    touch-action: pan-x pan-y;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+body {
+    display: grid;
+    padding: 2.5vh;
+    gap: 2.5vh;
+    align-content: start;
+    justify-items: center;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* styles */
+
+h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    width: 100%;
+}
+
+h2 {
+    text-align: start;
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 100%;
+    margin-left: 1.25vh;
+}
+
+/* header */
+
+header {
+    display: flex;
+    width: fit-content;
+    padding: 1.25vh 2.5vh 1.25vh 2.5vh;
+    background-color: var(--card-level1);
+    border-radius: 2.81vh;
+    height: 5.62vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main */
+
+main {
+    display: grid;
+    gap: 1.25vh;
+    align-content: start;
+    justify-items: start;
+    width: 100%;
+    height: 100%;
+}
+
+.TextToday {
+    display: flex;
+    width: fit-content;
+    padding: 1.25vh 2.5vh 1.25vh 2.5vh;
+    background-color: var(--card-level1);
+    border-radius: 2.81vh;
+    height: 5.62vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* card */
+
+.card {
+    display: grid;
+    width: 100%;
+    padding: 1.25vh;
+    background-color: var(--card-level1);
+    border-radius: 2.81vh;
+    height: fit-content;
+    gap: 1.25vh;
+    align-content: start;
+    justify-items: start;
+}
+
+.gdz {
+    display: flex;
+    width: fit-content;
+    padding: 1vh 1.25vh 1vh 1.25vh;
+    background-color: var(--card-level2);
+    border-radius: 2.81vh;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    justify-self: end;
+    user-select: none;
+}
