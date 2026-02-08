@@ -53,14 +53,12 @@ h1 {
     text-align: center;
     font-size: 1.4rem;
     font-weight: 500;
-    width: 100%;
 }
 
 h2 {
     text-align: start;
     font-size: 1.25rem;
     font-weight: 400;
-    width: 100%;
     margin-left: 1.25vh;
 }
 
@@ -127,4 +125,8 @@ main {
     cursor: pointer;
     justify-self: end;
     user-select: none;
+}
+
+.lesson {
+    justify-self: center;
 }
