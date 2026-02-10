@@ -19,6 +19,6 @@ async function loadHomework() {
 
 loadHomework();
 
-setTimeout(() => {
+setInterval(() => {
   loadHomework();
 }, 10000);
