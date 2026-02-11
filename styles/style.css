@@ -14,24 +14,6 @@
         --card-level1: #1f1f1f;
         --card-level2: #2f2f2f;
     }
-
-    .light_ad {
-        opacity: 0;
-    }
-
-    .dark_ad {
-        opacity: 1;
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    .light_ad {
-        opacity: 1;
-    }
-
-    .dark_ad {
-        opacity: 0;
-    }
 }
 
 html {
