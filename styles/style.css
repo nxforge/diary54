@@ -20,7 +20,7 @@
     }
 
     .dark_ad {
-        display: auto;
+        display: inline;
     }
 }
 
@@ -74,7 +74,7 @@ h2 {
 }
 
 .light_ad {
-    display: auto;
+    display: inline;
 }
 
 .dark_ad {
